@@ -55,7 +55,7 @@ public class PartyCollection {
 				+ seconds + " seconds</div></i>";
 	}
 
-	@POST
+	@GET
 	@Path("/all")
 	@Produces({ MediaType.TEXT_HTML, MediaType.APPLICATION_JSON,
 			MediaType.TEXT_PLAIN })
